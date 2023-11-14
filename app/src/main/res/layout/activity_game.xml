@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page_new"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_game_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/score_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/score_value_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_life"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/life_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_life_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/life_value_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/time_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/time_value_textview"
+            android:textColor="#2E2900"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_question"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/question_textview"
+        android:textColor="#2E2900"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editext_answer"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/answer_edittext"
+        android:inputType="numberSigned"
+        android:textColor="#2E2900" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/ok_button" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/next_button" />
+    </LinearLayout>
+</LinearLayout>

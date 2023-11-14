@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Math Game</string>
+    <string name="addition_button">Addition</string>
+    <string name="subtraction_button">Subtraction</string>
+    <string name="multiplication_button">Multiplication</string>
+    <string name="division_button">Division</string>
+    <string name="score_textview">Score :</string>
+    <string name="score_value_textview">0</string>
+    <string name="life_textview">Life :</string>
+    <string name="life_value_textview">3</string>
+    <string name="time_textview">Time :</string>
+    <string name="time_value_textview">0</string>
+    <string name="question_textview">Question</string>
+    <string name="answer_edittext">Write your answer here</string>
+    <string name="ok_button">Ok</string>
+    <string name="next_button">Next</string>
+    <string name="congrats_textview">Congratulations</string>
+    <string name="score_result_textview">Score : 0</string>
+    <string name="playagain_button">Play Again</string>
+    <string name="exit_button">Exit</string>
+</resources>
